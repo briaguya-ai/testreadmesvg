@@ -22,7 +22,9 @@
 					height: 400px;
 					text-align: center;
 					font-size: 140px;
-					color: var(--fgColor-default, var(--color-fg-default));
+					@media (prefers-color-scheme: dark) {
+						color: white;
+					}
 				}
 			</style>
 			<div class="superheader">
