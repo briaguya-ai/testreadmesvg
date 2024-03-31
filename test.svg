@@ -22,6 +22,7 @@
 					height: 400px;
 					text-align: center;
 					font-size: 140px;
+					color: var(--fgColor-default, var(--color-fg-default));
 				}
 			</style>
 			<div class="superheader">
